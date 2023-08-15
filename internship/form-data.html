@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Data</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Form Data</h1>
+  <form>
+    <label for="name">Name:</label>
+    <output id="name"></output><br><br>
+  
+    <label for="address">Address:</label>
+    <output id="address"></output><br><br>
+  
+    <label for="phoneNumber">Phone Number:</label>
+    <output id="phoneNumber"></output><br><br>
+
+    
+    <label for="rollNumber">rollNumber:</label>
+    <output id="rollNumber"></output><br><br>
+
+    
+    <label for="department">department:</label>
+    <output id="department"></output><br><br>
+  </form>
+  
+  <script>
+    var params = new URLSearchParams(window.location.search);
+    document.getElementById("name").innerHTML = params.get("name");
+    document.getElementById("address").innerHTML = params.get("address");
+    document.getElementById("phoneNumber").innerHTML = params.get("phoneNumber");
+    document.getElementById("rollNumber").innerHTML = params.get("rollNumber");
+    document.getElementById("department").innerHTML = params.get("department");
+
+
+
+
+  </script>
+</body>
+</html>

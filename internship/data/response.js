@@ -1,0 +1,1 @@
+fetch('http://127.0.0.1:8461/openapi.json');

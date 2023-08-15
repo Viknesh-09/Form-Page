@@ -1,0 +1,74 @@
+h1 {
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(39, 3, 28);  
+    margin: 20px;
+ }  
+label {
+   display: block;
+   margin-bottom: 10px;
+   font-weight: bold;
+ }
+ 
+ input[type="text"], input[type="number"] {
+   width: 20%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid rgb(26, 148, 81);
+   border-radius: 5px;
+ }
+ 
+ input[type="submit"] {
+   width: 30%;
+   padding: 10px;
+   background-color: rgb(225, 241, 147);
+   border: none ;
+   border-radius: 5px;
+   color: rgb(159, 40, 40);
+   font-weight: bolder;
+   text-align: center;
+ }
+ input[type="button"] {
+  width: 30%;
+  padding: 10px;
+  background-color: rgb(246, 223, 149);
+  border: none ;
+  border-radius: 5px;
+  color: rgb(159, 40, 40);
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+ body{
+  background-color: rgb(222, 239, 167)
+ }
+
+ form {
+   padding: 20px;
+
+ }
+label{
+   display: ruby-base;
+   margin-bottom: 10px;
+}
+
+
+input[type="Display all Data"] {
+  width: 40%;
+  padding: 10px;
+  background-color: rgb(225, 241, 147);
+  border: none ;
+  border-radius: 5px;
+  color: rgb(159, 40, 40);
+  font-weight: bolder;
+  text-align: center;
+}
+
+output {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid rgb(111, 165, 29);
+ }
